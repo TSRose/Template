@@ -29,6 +29,42 @@
 .bg-color-personal-info {
      background-color: #f4f4f4;
 }
+.bg-color-work-history {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #525252;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
 
 /*-------------------------------------------- Special paddings/margins/text */
 
@@ -262,7 +298,6 @@ footer {
 }
 
 /*-------------------------------------------- Skills */
-
 .progress {
     position: relative;
     height: 25px;
@@ -270,10 +305,14 @@ footer {
 }
 
 .progress-type {
-    position: relative;
+    position: absolute;
     left: 0px;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: 25, 25, 25, 0.2;
+    background-color: rgba(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 20px;
 }
